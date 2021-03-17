@@ -1,113 +1,115 @@
 [[ECOS]]
-arch = "i686"
-git-tree-sha1 = "0c6f26f53a3417ae438d69e33040f27b66e1715e"
-libc = "musl"
+arch = "aarch64"
+git-tree-sha1 = "22feb942e22068e3c37a13ed9d94ea44938f89cd"
+libc = "glibc"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "79d4a54a7bb8e03fbcd07da54a65da9876a1353de5463a6aaacae53bde9ebbc7"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.i686-linux-musl.tar.gz"
+    sha256 = "424f9def83166be51d9064a85224dabacc04dc8caf3f300c8d6973e9d2a46382"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.aarch64-linux-gnu.tar.gz"
 [[ECOS]]
 arch = "aarch64"
-git-tree-sha1 = "0b425594f21a41744669f8c9fa9f0b5ed12d5ef3"
+git-tree-sha1 = "8420e9452570b06159a38ac55636eea4eabf475b"
 libc = "musl"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "5dee604c875111fa7cb3c4d4d5fafc94b453eb571409aaa1e67f0e4223fdce58"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.aarch64-linux-musl.tar.gz"
-[[ECOS]]
-arch = "i686"
-git-tree-sha1 = "a0000c15e4442ae0495781af51cd5339867b4c5f"
-os = "windows"
-
-    [[ECOS.download]]
-    sha256 = "4f7853d4613444053ad448943347155f08e28e9a0fd76cc1b7d4cd869981ff94"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.i686-w64-mingw32.tar.gz"
-[[ECOS]]
-arch = "x86_64"
-git-tree-sha1 = "c4af151a712e42a176663c0cf87b44587c9708c0"
-os = "windows"
-
-    [[ECOS.download]]
-    sha256 = "97ee59af174115b494c00dbb70a59aefd7d8bd8e8bf1301f31531d5b16436154"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.x86_64-w64-mingw32.tar.gz"
+    sha256 = "1439baf5e911e23e5f6079ef88e3074d8006ecadfc50f9452e29d9bdf5c8f152"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.aarch64-linux-musl.tar.gz"
 [[ECOS]]
 arch = "armv7l"
-git-tree-sha1 = "26334c03c211329e219a536e1b568e5541686a00"
+call_abi = "eabihf"
+git-tree-sha1 = "1560d2e3a254d8e80c631aad50dff155cc03c32f"
 libc = "glibc"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "777b2094316520526e2744dd222179af9b657ee7887896721378aa16ec4175dc"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "643bffefd032072167340a8990909020f2a6a608373ab9a4b5f28e9d169a5599"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.armv7l-linux-gnueabihf.tar.gz"
 [[ECOS]]
 arch = "armv7l"
-git-tree-sha1 = "11000ad07cb6ef30ea97f3f0bcf6d79196330ae1"
+call_abi = "eabihf"
+git-tree-sha1 = "00e2b3bfbb8fe4339ce77ae4f17564f2cfcdc314"
 libc = "musl"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "fccb2f36e6f5963f35c62cdc963e40a776ced614894ed9de14d0b3bb2ae47ac7"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "463bce42121d1affbc3a9fa539b4439979fe501bfcc982f9ba0fed3645777d49"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.armv7l-linux-musleabihf.tar.gz"
 [[ECOS]]
 arch = "i686"
-git-tree-sha1 = "b724cf1352ddd3a84cc045259342c8fee4e08b49"
+git-tree-sha1 = "05a8750b57ddbf38722ddebb552d15c500e4a215"
 libc = "glibc"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "491de190d1a7c7994297e42ffff7b0c08d135e99e70ba71664dbfb95faf076e7"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.i686-linux-gnu.tar.gz"
+    sha256 = "c182047d44c1c28ff045e70b2c474902100b80f8cf3c408a02ab4cb4b1f08139"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.i686-linux-gnu.tar.gz"
 [[ECOS]]
-arch = "x86_64"
-git-tree-sha1 = "b49ea645faf142e03d14cb0411e65ccd47e5d390"
-libc = "glibc"
+arch = "i686"
+git-tree-sha1 = "7450871082ed16b6000aab72ac7d9ae8520a046f"
+libc = "musl"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "344458ba78047416243fc2853a9c05cfa4c99be2143417df5af01be565c702f7"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.x86_64-linux-gnu.tar.gz"
+    sha256 = "153f46c80e4d55af3bb9ea174b9e0f062a498d639183b417a2ba1c1bbd6258d0"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.i686-linux-musl.tar.gz"
+[[ECOS]]
+arch = "i686"
+git-tree-sha1 = "bfb861a06adaed09070ff0ec96bf83cc5dae1f96"
+os = "windows"
+
+    [[ECOS.download]]
+    sha256 = "dd908de352360e878ac58503541195cd713590aa90b1c3b69c0a430d7c7811b0"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.i686-w64-mingw32.tar.gz"
 [[ECOS]]
 arch = "powerpc64le"
-git-tree-sha1 = "1e71ce2d3f03b65e272464b80fb940be691b0520"
+git-tree-sha1 = "e3943732da306a0485719351106aadf47b7597a5"
 libc = "glibc"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "23010be796f4b925b4c9578bf751eb2e4f816bdc2fa0905f194167b6c522fe39"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "e29ec5865b7500148dbfa7f4c219e08ffe3204d869affb2e803775dfee9659af"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.powerpc64le-linux-gnu.tar.gz"
 [[ECOS]]
 arch = "x86_64"
-git-tree-sha1 = "7438522e088fdf66fefe059b5f110fb469ef366a"
+git-tree-sha1 = "40b782c70d77b481d850f63bdda7294c62c16e9f"
 os = "macos"
 
     [[ECOS.download]]
-    sha256 = "a5bfcc5370be56f7a6cc9899691abeeab22b579959abfcfe0004472f84c2f838"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.x86_64-apple-darwin14.tar.gz"
+    sha256 = "09d91a53b0120ee51ecf43aa59c860d74beed93f832139ef6c3aced240447e44"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.x86_64-apple-darwin.tar.gz"
 [[ECOS]]
-arch = "aarch64"
-git-tree-sha1 = "1388b29f23cb17704f08c743ca2c3cb267e7a8c2"
+arch = "x86_64"
+git-tree-sha1 = "7851e90eebdd723cd26d27708664c99d728d254c"
 libc = "glibc"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "300a133a5e693708ecd7b7cdb5d4a206e3361b6f80897b99dd2beadf270fc7f3"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.aarch64-linux-gnu.tar.gz"
+    sha256 = "3bd6091b62d39455951cad75588ac14a0dabeb920967d6474cfbbd3031c63708"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.x86_64-linux-gnu.tar.gz"
 [[ECOS]]
 arch = "x86_64"
-git-tree-sha1 = "51931da3dd28d371d5828709e5cb3a55f7da6397"
-os = "freebsd"
-
-    [[ECOS.download]]
-    sha256 = "621f385c107126dea1ac13c2be2b0fef70c81f301433595276c4ee1a20baed47"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.x86_64-unknown-freebsd11.1.tar.gz"
-[[ECOS]]
-arch = "x86_64"
-git-tree-sha1 = "8f892cd715fb6f26ee09693dd82676583ba353f1"
+git-tree-sha1 = "d9cf19a1079c06ad6e47a06d687a7dd2ce94f4a6"
 libc = "musl"
 os = "linux"
 
     [[ECOS.download]]
-    sha256 = "43f26915e0fb94c9cc3d6e22cd071ac58473873428db893866f9a8230f8316e4"
-    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.5+0/ECOS.v2.0.5.x86_64-linux-musl.tar.gz"
+    sha256 = "3bc4f60f174d6b941ea2b1cf194a5ce52e862db6987b6c7d22a448f23f8a4499"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.x86_64-linux-musl.tar.gz"
+[[ECOS]]
+arch = "x86_64"
+git-tree-sha1 = "76fb8dc682e30781d6eddf5bc1940c01d71dd794"
+os = "freebsd"
+
+    [[ECOS.download]]
+    sha256 = "7507555ffc21b0674bc2a924c6615afd71c56072614eb22b9067753d02ddc267"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.x86_64-unknown-freebsd.tar.gz"
+[[ECOS]]
+arch = "x86_64"
+git-tree-sha1 = "7e80370d46fb593b3128666e5a9f048da396127c"
+os = "windows"
+
+    [[ECOS.download]]
+    sha256 = "3a78719298fbb101114906de4f5344a751b65715d662e9a902b5f9f01abf59b9"
+    url = "https://github.com/JuliaBinaryWrappers/ECOS_jll.jl/releases/download/ECOS-v2.0.8+0/ECOS.v2.0.8.x86_64-w64-mingw32.tar.gz"
