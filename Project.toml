@@ -1,6 +1,6 @@
 name = "ECOS_jll"
 uuid = "c2c64177-6a8e-5dca-99a7-64895ad7445f"
-version = "2.0.8+1"
+version = "200.0.800+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -10,4 +10,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.0"
+julia = "1.6"
