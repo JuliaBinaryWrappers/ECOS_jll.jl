@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("ECOS")
-JLLWrappers.@generate_main_file("ECOS", UUID("c2c64177-6a8e-5dca-99a7-64895ad7445f"))
+JLLWrappers.@generate_main_file("ECOS", Base.UUID("c2c64177-6a8e-5dca-99a7-64895ad7445f"))
 end  # module ECOS_jll
